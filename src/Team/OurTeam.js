@@ -10,8 +10,10 @@ const schemaMarkup = {
   url: "https://www.jcinagpurfortune.in/",
   logo: "https://www.jcinagpurfortune.in/images/images/logo4.webp",
   image: "https://www.jcinagpurfortune.in/images/logo.webp",
-  description: "Join JCI Nagpur Fortune to empower youth, develop leadership skills, and drive positive change in your community through impactful events, training, and social initiatives.",
-  keyword: "fortune, jci, jci nagpur, Best LO, jci LO, jci in Nagpur, jci  LO in Nagpur, Best jci LO in Nagpur, Best jci LO in India, Best jci LO in Maharashtra, Best JCI LO, jci in Maharashtra, jci Events in Nagpur, jci Leadership Training, jci Nagpur Projects,jci member,youthpower,empoweryouth,Youth Empowerment Organization,JCI Nagpur Fortune, JCI Nagpur Fortune social impact, JCI Nagpur Fortune networking, JCI Nagpur fortune leadership development, JCI Nagpur community service, JCI Nagpur fortune community,JCI Nagpur fortune chapter , JCI Nagpur fortune membership,JCI Nagpur fortune training programs, JCI chapters in Maharashtra,Youth organizations in Nagpur,Leadership training in Nagpur,Community development Nagpur,Professional networking Nagpur,Youth leadership Nagpur,Social entrepreneurship Nagpur,Youth empowerment programs Nagpur,Leadership skills development,Professional growth opportunities,Community impact initiatives,Young leaders network,Business skills for youth,Personal development organization,CI Nagpur workshops,JCI Nagpur training programs,JCI Nagpur conferences,JCI Nagpur seminars,JCI Nagpur community projects,JCI Nagpur youth programs,JCI Nagpur skill development,JCI Nagpur entrepreneurship programs",
+  description:
+    "Join JCI Nagpur Fortune to empower youth, develop leadership skills, and drive positive change in your community through impactful events, training, and social initiatives.",
+  keyword:
+    "fortune, jci, jci nagpur, Best LO, jci LO, jci in Nagpur, jci  LO in Nagpur, Best jci LO in Nagpur, Best jci LO in India, Best jci LO in Maharashtra, Best JCI LO, jci in Maharashtra, jci Events in Nagpur, jci Leadership Training, jci Nagpur Projects,jci member,youthpower,empoweryouth,Youth Empowerment Organization,JCI Nagpur Fortune, JCI Nagpur Fortune social impact, JCI Nagpur Fortune networking, JCI Nagpur fortune leadership development, JCI Nagpur community service, JCI Nagpur fortune community,JCI Nagpur fortune chapter , JCI Nagpur fortune membership,JCI Nagpur fortune training programs, JCI chapters in Maharashtra,Youth organizations in Nagpur,Leadership training in Nagpur,Community development Nagpur,Professional networking Nagpur,Youth leadership Nagpur,Social entrepreneurship Nagpur,Youth empowerment programs Nagpur,Leadership skills development,Professional growth opportunities,Community impact initiatives,Young leaders network,Business skills for youth,Personal development organization,CI Nagpur workshops,JCI Nagpur training programs,JCI Nagpur conferences,JCI Nagpur seminars,JCI Nagpur community projects,JCI Nagpur youth programs,JCI Nagpur skill development,JCI Nagpur entrepreneurship programs",
 
   aggregateRating: {
     "@type": "AggregateRating",
@@ -181,27 +183,27 @@ function OurTeam() {
                         {/* Social Box */}
                         <ul className="social-box">
                           <li>
-                            <a href="#" aria-label="Facebook">
+                            <a href="https://www.facebook.com/prashant.kadhao" aria-label="Facebook">
                               <span className="fab fa-facebook-f"></span>
                             </a>
                           </li>
                           <li>
-                            <a href="#" aria-label="Google Plus">
+                            <a href="https://prashantkadhao.com/" aria-label="Google Plus">
                               <span className="fab fa-google-plus-g"></span>
                             </a>
                           </li>
-                          <li>
+                          {/* <li>
                             <a href="#" aria-label="Skype">
                               <span className="fab fa-skype"></span>
                             </a>
-                          </li>
+                          </li> */}
                           <li>
-                            <a href="#" aria-label="Twitter">
-                              <span className="fab fa-twitter"></span>
+                            <a href="https://www.instagram.com/prashant_kadhao/" aria-label="Twitter">
+                              <span className="fab fa-instagram"></span>
                             </a>
                           </li>
                           <li>
-                            <a href="#" aria-label="LinkedIn">
+                            <a href="https://www.linkedin.com/in/prashant-kadhao-544600a9/" aria-label="LinkedIn">
                               <span className="fab fa-linkedin-in"></span>
                             </a>
                           </li>
@@ -212,7 +214,7 @@ function OurTeam() {
                   <div className="lower-box">
                     <h3>
                       <a href="/team-member/prashant-kadhao">
-                        JC Prashant Kadhao
+                        JFM Prashant Kadhao
                       </a>
                     </h3>
                     <div className="designation">
@@ -257,8 +259,8 @@ function OurTeam() {
                             </a>
                           </li>
                           <li>
-                            <a href="#" aria-label="Twitter">
-                              <span className="fab fa-twitter"></span>
+                            <a href="https://www.instagram.com/gayatri_wasu_kadhao/" aria-label="Twitter">
+                              <span className="fab fa-instagram"></span>
                             </a>
                           </li>
                           <li>
@@ -276,7 +278,7 @@ function OurTeam() {
                         JC Gayatri Kadhao
                       </a>
                     </h3>
-                    <div className="designation">SECRETARY</div> 
+                    <div className="designation">SECRETARY</div>
                   </div>
                 </div>
               </div>
@@ -316,8 +318,8 @@ function OurTeam() {
                             </a>
                           </li>
                           <li>
-                            <a href="#" aria-label="Twitter">
-                              <span className="fab fa-twitter"></span>
+                            <a href="https://www.instagram.com/developerabhishek9300/" aria-label="Twitter">
+                              <span className="fab fa-instagram"></span>
                             </a>
                           </li>
                           <li>
@@ -360,27 +362,27 @@ function OurTeam() {
                         {/* Social Box */}
                         <ul className="social-box">
                           <li>
-                            <a href="#" aria-label="Facebook">
+                            <a href="https://www.facebook.com/sharda.waghamare.1" aria-label="Facebook">
                               <span className="fab fa-facebook-f"></span>
                             </a>
                           </li>
                           <li>
-                            <a href="#" aria-label="Google Plus">
+                            <a href="https://shardawaghmare.in/" aria-label="Google Plus">
                               <span className="fab fa-google-plus-g"></span>
                             </a>
                           </li>
                           <li>
-                            <a href="#" aria-label="Skype">
+                            <a href="https://join.skype.com/invite/pI3ObrrRF4uu" aria-label="Skype">
                               <span className="fab fa-skype"></span>
                             </a>
                           </li>
                           <li>
-                            <a href="#" aria-label="Twitter">
-                              <span className="fab fa-twitter"></span>
+                            <a href="https://www.instagram.com/webdev_sharda/?hl=en" aria-label="Twitter">
+                              <span className="fab fa-instagram"></span>
                             </a>
                           </li>
                           <li>
-                            <a href="#" aria-label="LinkedIn">
+                            <a href="https://www.linkedin.com/in/sharda-waghmare-805955218/" aria-label="LinkedIn">
                               <span className="fab fa-linkedin-in"></span>
                             </a>
                           </li>
@@ -419,27 +421,27 @@ function OurTeam() {
                         {/* Social Box */}
                         <ul className="social-box">
                           <li>
-                            <a href="#" aria-label="Facebook">
+                            <a href="https://www.facebook.com/Aditya.R.Sukhdeve" aria-label="Facebook">
                               <span className="fab fa-facebook-f"></span>
                             </a>
                           </li>
                           <li>
-                            <a href="#" aria-label="Google Plus">
+                            <a href="https://adityasukhdeve.in/" aria-label="Google Plus">
                               <span className="fab fa-google-plus-g"></span>
                             </a>
                           </li>
-                          <li>
+                          {/* <li>
                             <a href="#" aria-label="Skype">
                               <span className="fab fa-skype"></span>
                             </a>
-                          </li>
+                          </li> */}
                           <li>
-                            <a href="#" aria-label="Twitter">
-                              <span className="fab fa-twitter"></span>
+                            <a href="https://www.instagram.com/jc_aditya.r.sukhdeve/" aria-label="Instagram">
+                              <span className="fab fa-instagram"></span>
                             </a>
                           </li>
                           <li>
-                            <a href="#" aria-label="LinkedIn">
+                            <a href="https://www.linkedin.com/in/aditya-sukhdeve-472493205/" aria-label="LinkedIn">
                               <span className="fab fa-linkedin-in"></span>
                             </a>
                           </li>
@@ -493,8 +495,8 @@ function OurTeam() {
                             </a>
                           </li>
                           <li>
-                            <a href="#" aria-label="Twitter">
-                              <span className="fab fa-twitter"></span>
+                            <a href="https://www.instagram.com/shrilekh.s/" aria-label="Twitter">
+                              <span className="fab fa-instagram"></span>
                             </a>
                           </li>
                           <li>
@@ -552,8 +554,8 @@ function OurTeam() {
                             </a>
                           </li>
                           <li>
-                            <a href="#" aria-label="Twitter">
-                              <span className="fab fa-twitter"></span>
+                            <a href="https://www.instagram.com/mansi_mern/" aria-label="Twitter">
+                              <span className="fab fa-instagram"></span>
                             </a>
                           </li>
                           <li>
@@ -609,8 +611,8 @@ function OurTeam() {
                             </a>
                           </li>
                           <li>
-                            <a href="#" aria-label="Twitter">
-                              <span className="fab fa-twitter"></span>
+                            <a href="https://www.instagram.com/dhanshree_devs/" aria-label="Twitter">
+                              <span className="fab fa-instagram"></span>
                             </a>
                           </li>
                           <li>
@@ -655,27 +657,32 @@ function OurTeam() {
                         {/* Social Box */}
                         <ul className="social-box">
                           <li>
-                            <a href="#" aria-label="Facebook">
+                            <a href="https://www.facebook.com/profile.php?id=100008099328210" aria-label="Facebook">
                               <span className="fab fa-facebook-f"></span>
                             </a>
                           </li>
-                          <li>
+                          {/* <li>
                             <a href="#" aria-label="Google Plus">
                               <span className="fab fa-google-plus-g"></span>
                             </a>
-                          </li>
-                          <li>
+                          </li> */}
+                          {/* <li>
                             <a href="#" aria-label="Skype">
                               <span className="fab fa-skype"></span>
                             </a>
-                          </li>
+                          </li> */}
                           <li>
-                            <a href="#" aria-label="Twitter">
+                            <a href="https://www.instagram.com/jc_amod/" aria-label="Twitter">
                               <span className="fab fa-twitter"></span>
                             </a>
                           </li>
                           <li>
-                            <a href="#" aria-label="LinkedIn">
+                            <a href="https://x.com/home" aria-label="Instagram">
+                              <span className="fab fa-instagram"></span>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="http://www.linkedin.com/in/amod-chaudhari11" aria-label="LinkedIn">
                               <span className="fab fa-linkedin-in"></span>
                             </a>
                           </li>
@@ -713,28 +720,28 @@ function OurTeam() {
                         </a>
                         {/* Social Box */}
                         <ul className="social-box">
-                          <li>
+                          {/* <li>
                             <a href="#" aria-label="Facebook">
                               <span className="fab fa-facebook-f"></span>
                             </a>
-                          </li>
+                          </li> */}
                           <li>
-                            <a href="#" aria-label="Google Plus">
+                            <a href="https://sanjanakashimkar.in/" aria-label="Google Plus">
                               <span className="fab fa-google-plus-g"></span>
                             </a>
                           </li>
-                          <li>
+                          {/* <li>
                             <a href="#" aria-label="Skype">
                               <span className="fab fa-skype"></span>
                             </a>
-                          </li>
+                          </li> */}
                           <li>
-                            <a href="#" aria-label="Twitter">
-                              <span className="fab fa-twitter"></span>
+                            <a href="https://www.instagram.com/webeyes_sanjana/" aria-label="Twitter">
+                              <span className="fab fa-instagram"></span>
                             </a>
                           </li>
                           <li>
-                            <a href="#" aria-label="LinkedIn">
+                            <a href="https://www.linkedin.com/in/sanjana-kashimkar-11609424a/" aria-label="LinkedIn">
                               <span className="fab fa-linkedin-in"></span>
                             </a>
                           </li>
@@ -754,7 +761,7 @@ function OurTeam() {
               </div>
 
               {/* JC ASHWINI THAKARE Block */}
-              <div className="volunter-block col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              {/* <div className="volunter-block col-xl-3 col-lg-4 col-md-6 col-sm-12">
                 <div className="inner-box">
                   <div className="image">
                     <img
@@ -770,7 +777,7 @@ function OurTeam() {
                         >
                           <span className="icon flaticon-web-link"></span>
                         </a>
-                        {/* Social Box */}
+                      
                         <ul className="social-box">
                           <li>
                             <a href="#" aria-label="Facebook">
@@ -789,7 +796,7 @@ function OurTeam() {
                           </li>
                           <li>
                             <a href="#" aria-label="Twitter">
-                              <span className="fab fa-twitter"></span>
+                              <span className="fab fa-instagram"></span>
                             </a>
                           </li>
                           <li>
@@ -808,7 +815,7 @@ function OurTeam() {
                     <div className="designation">DITR</div>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               {/* JC PRANAV BELORKAR */}
               <div className="volunter-block col-xl-3 col-lg-4 col-md-6 col-sm-12">
@@ -831,28 +838,33 @@ function OurTeam() {
                         </a>
                         {/* Social Box */}
                         <ul className="social-box">
-                          <li>
+                          {/* <li>
                             <a href="#" aria-label="Facebook">
                               <span className="fab fa-facebook-f"></span>
                             </a>
-                          </li>
+                          </li> */}
                           <li>
-                            <a href="#" aria-label="Google Plus">
+                            <a href="https://pranavbelorkar.in/" aria-label="Google Plus">
                               <span className="fab fa-google-plus-g"></span>
                             </a>
                           </li>
-                          <li>
+                          {/* <li>
                             <a href="#" aria-label="Skype">
                               <span className="fab fa-skype"></span>
                             </a>
+                          </li> */}
+                          <li>
+                            <a href="https://www.instagram.com/pranavbelorkar.16/" aria-label="Instagram">
+                              <span className="fab fa-instagram"></span>
+                            </a>
                           </li>
                           <li>
-                            <a href="#" aria-label="Twitter">
+                            <a href="http://x.com/PranavB38116" aria-label="Twitter">
                               <span className="fab fa-twitter"></span>
                             </a>
                           </li>
                           <li>
-                            <a href="#" aria-label="LinkedIn">
+                            <a href="https://www.linkedin.com/in/pranav-belorkar-27a66324b/" aria-label="LinkedIn">
                               <span className="fab fa-linkedin-in"></span>
                             </a>
                           </li>
@@ -890,28 +902,33 @@ function OurTeam() {
                         </a>
                         {/* Social Box */}
                         <ul className="social-box">
-                          <li>
+                          {/* <li>
                             <a href="#" aria-label="Facebook">
                               <span className="fab fa-facebook-f"></span>
                             </a>
-                          </li>
+                          </li> */}
                           <li>
-                            <a href="#" aria-label="Google Plus">
+                            <a href="https://shubhangitijare.in/" aria-label="Google Plus">
                               <span className="fab fa-google-plus-g"></span>
                             </a>
                           </li>
-                          <li>
+                          {/* <li>
                             <a href="#" aria-label="Skype">
                               <span className="fab fa-skype"></span>
                             </a>
+                          </li> */}
+                          <li>
+                            <a href="https://www.instagram.com/shubhangi_tijare/" aria-label="Instagram">
+                              <span className="fab fa-instagram"></span>
+                            </a>
                           </li>
                           <li>
-                            <a href="#" aria-label="Twitter">
+                            <a href="https://x.com/ShubhangiT72993" aria-label="Twitter">
                               <span className="fab fa-twitter"></span>
                             </a>
                           </li>
                           <li>
-                            <a href="#" aria-label="LinkedIn">
+                            <a href="https://www.linkedin.com/in/shubhangi-tijare/" aria-label="LinkedIn">
                               <span className="fab fa-linkedin-in"></span>
                             </a>
                           </li>
@@ -931,7 +948,7 @@ function OurTeam() {
               </div>
 
               {/* JC KHUSHI DIWAN */}
-              <div className="volunter-block col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              {/* <div className="volunter-block col-xl-3 col-lg-4 col-md-6 col-sm-12">
                 <div className="inner-box">
                   <div className="image">
                     <img
@@ -947,7 +964,7 @@ function OurTeam() {
                         >
                           <span className="icon flaticon-web-link"></span>
                         </a>
-                        {/* Social Box */}
+                       
                         <ul className="social-box">
                           <li>
                             <a href="#" aria-label="Facebook">
@@ -966,7 +983,7 @@ function OurTeam() {
                           </li>
                           <li>
                             <a href="#" aria-label="Twitter">
-                              <span className="fab fa-twitter"></span>
+                              <span className="fab fa-instagram"></span>
                             </a>
                           </li>
                           <li>
@@ -985,10 +1002,10 @@ function OurTeam() {
                     <div className="designation">DIMO</div>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               {/* JC DEVANSHU GOTE */}
-              <div className="volunter-block col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              {/* <div className="volunter-block col-xl-3 col-lg-4 col-md-6 col-sm-12">
                 <div className="inner-box">
                   <div className="image">
                     <img
@@ -1004,7 +1021,7 @@ function OurTeam() {
                         >
                           <span className="icon flaticon-web-link"></span>
                         </a>
-                        {/* Social Box */}
+                       
                         <ul className="social-box">
                           <li>
                             <a href="#" aria-label="Facebook">
@@ -1023,7 +1040,7 @@ function OurTeam() {
                           </li>
                           <li>
                             <a href="#" aria-label="Twitter">
-                              <span className="fab fa-twitter"></span>
+                              <span className="fab fa-instagram"></span>
                             </a>
                           </li>
                           <li>
@@ -1042,7 +1059,7 @@ function OurTeam() {
                     <div className="designation">DIBO</div>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               {/* JC tanushri dhote */}
               <div className="volunter-block col-xl-3 col-lg-4 col-md-6 col-sm-12">
@@ -1063,28 +1080,28 @@ function OurTeam() {
                         </a>
                         {/* Social Box */}
                         <ul className="social-box">
-                          <li>
+                          {/* <li>
                             <a href="#" aria-label="Facebook">
                               <span className="fab fa-facebook-f"></span>
                             </a>
-                          </li>
+                          </li> */}
                           <li>
-                            <a href="#" aria-label="Google Plus">
+                            <a href="https://tanushri.vercel.app/" aria-label="Google Plus">
                               <span className="fab fa-google-plus-g"></span>
                             </a>
                           </li>
                           <li>
-                            <a href="#" aria-label="Skype">
+                            <a href="https://join.skype.com/invite/vWBkY6uCsNdT" aria-label="Skype">
                               <span className="fab fa-skype"></span>
                             </a>
                           </li>
                           <li>
-                            <a href="#" aria-label="Twitter">
-                              <span className="fab fa-twitter"></span>
+                            <a href="https://www.instagram.com/tanushri__22/" aria-label="Twitter">
+                              <span className="fab fa-instagram"></span>
                             </a>
                           </li>
                           <li>
-                            <a href="#" aria-label="LinkedIn">
+                            <a href="https://www.linkedin.com/in/tanushri-dhote-b4ab15298/" aria-label="LinkedIn">
                               <span className="fab fa-linkedin-in"></span>
                             </a>
                           </li>

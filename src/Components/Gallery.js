@@ -81,107 +81,396 @@ const ImageTabs = () => {
 
   const images = {
     all: [
-      // {
-      //   src: "images/eventimages/27.webp",
-      //   alt: "MIDCON 2024",
-      //   text: "JCI Nagpur Fortune First Installation Ceremony",
-      // },
-      // {
-      //   src: "images/eventimages/28.webp",
-      //   alt: "MIDCON 2024",
-      //   text: "JCI Nagpur Fortune First Installation Ceremony",
-      // },
-      // {
-      //   src: "images/eventimages/29.webp",
-      //   alt: "MIDCON 2024",
-      //   text: "JCI Nagpur Fortune First Installation Ceremony",
-      // },
+      // first
       {
-        src: "images/eventimages/30.webp",
-        alt: "MIDCON 2024",
-        text: "JCI Nagpur Fortune First Installation Ceremony",
+        src: "images/gallery/Beyond Words Elevating Corporate Communications/Beyond Words Elevating Corporate Communications.png",
+        alt: "Beyond Words Elevating Corporate Communications -2025",
+        text: "Beyond Words Elevating Corporate Communications -2025",
       },
       {
-        src: "images/eventimages/31.webp",
-        alt: "MIDCON 2024",
-        text: "JCI Nagpur Fortune First Installation Ceremony",
-      },
-      // {
-      //   src: "images/eventimages/32.webp",
-      //   alt: "MIDCON 2024",
-      //   text: "JCI Nagpur Fortune First Installation Ceremony",
-      // },
-      // {
-      //   src: "images/eventimages/33.webp",
-      //   alt: "MIDCON 2024",
-      //   text: "JCI Nagpur Fortune First Installation Ceremony",
-      // },
-      // {
-      //   src: "images/eventimages/34.webp",
-      //   alt: "MIDCON 2024",
-      //   text: "JCI Nagpur Fortune First Installation Ceremony",
-      // },
-
-      {
-        src: "images/eventimages/26.webp",
-        alt: "Training On stress Relief Strategies:Finding Calm In Chaos",
-        text: "Training On stress Relief Strategies:Finding Calm In Chaos",
+        src: "images/gallery/Values & ethics -2025/Values & ethics -2025 (1).png",
+        alt: "Values & ethics -2025",
+        text: "Values & ethics -2025",
       },
       {
-        src: "images/eventimages/25.webp",
-        alt: "Effective Public speaking Training Successfully Done By JCI Nagpur Fortune",
-        text: "Effective Public speaking Training Successfully Done By JCI Nagpur Fortune",
+        src: "images/gallery/Clothes and Fruits Donation Drive/Clothes and Fruits Donation Drive.png",
+        alt: "Clothes and Fruits Donation Drive",
+        text: "Clothes and Fruits Donation Drive 2025",
       },
       {
-        src: "images/eventimages/1.webp",
-        alt: "JCI Nagpur Fortune Orientation",
-        text: "JCI Nagpur Fortune Orientation",
+        src: "images/gallery/Salute the Silent Stars/Untitled design (2).png",
+        alt: "Salute the Silent Stars",
+        text: "Salute the Silent Stars 2025",
       },
       {
-        src: "images/eventimages/2.webp",
-        alt: "28 & 29 September 2024 JCI Zone 9 Dimond Zonecon 2024 Successfully Done ",
-        text: "28 & 29 September 2024 JCI Zone 9 Dimond Zonecon 2024 Successfully Done         ",
+        src: "images/gallery/Salute the Silent Stars/Untitled design (1).png",
+        alt: "Salute the Silent Stars",
+        text: "Salute the Silent Stars 2025",
       },
       {
-        src: "images/eventimages/3.webp",
-        alt: "28 & 29 September 2024 JCI Zone 9 Dimond Zonecon 2024 Successfully Done ",
-        text: "28 & 29 September 2024 JCI Zone 9 Dimond Zonecon 2024 Successfully Done !",
+        src: "images/gallery/stress management Training/Untitled design (3).png",
+        alt: "Stress Management Training",
+        text: "Stress Management Training 2025",
       },
       {
-        src: "images/eventimages/4.webp",
-        alt: "MIDCON 2024",
-        text: "MIDCON 2024",
+        src: "images/gallery/stress management Training/Untitled design (2).png",
+        alt: "Stress Management Training",
+        text: "Stress Management Training 2025",
       },
       {
-        src: "images/eventimages/5.webp",
-        alt: "Biz-9 - 2024  Hosted by JCI Raipur Metro Successfully Done",
-        text: "Biz-9 - 2024  Hosted by JCI Raipur Metro Successfully Done",
+        src: "images/eventimages/workloadbalance1.png",
+        alt: "Work Life Balance",
+        text: "Work Life Balance Training 2025",
       },
       {
-        src: "images/eventimages/6.webp",
-        alt: "Biz-9 - 2024  Hosted by JCI Raipur Metro Successfully Done",
-        text: "Biz-9 - 2024  Hosted by JCI Raipur Metro Successfully Done",
-      },
-
-      {
-        src: "images/eventimages/18.webp",
-        alt: "Blood Donation Camp",
-        text: "Blood Donation Camp",
+        src: "images/eventimages/workloadbalance.png",
+        alt: "Work Life Balance",
+        text: "Work Life Balance Training 2025",
       },
       {
-        src: "images/eventimages/19.webp",
-        alt: "Yoga Training",
-        text: "Yoga Training ",
+        src: "images/eventimages/startup1.png",
+        alt: "Dr. Babasaheb Ambedkar Jayanti Celebration",
+        text: "Sucessful Startup Training 2025",
       },
       {
-        src: "images/eventimages/20.webp",
-        alt: "Corporate Training",
-        text: "Corporate Training",
+        src: "images/eventimages/startup.png",
+        alt: "Dr. Babasaheb Ambedkar Jayanti Celebration",
+        text: "Sucessful Startup Training 2025",
       },
       {
-        src: "images/eventimages/21.webp",
-        alt: "Corporate Training",
-        text: "Corporate Training",
+        src: "images/eventimages/Drbabasahebjayanti1.png",
+        alt: "Dr. Babasaheb Ambedkar Jayanti Celebration",
+        text: "Food distribution on Dr. Babasaheb Ambedkar Jayanti 2025",
+      },
+      {
+        src: "images/eventimages/Drbabasahebjyanti.png",
+        alt: "Dr. Babasaheb Ambedkar Jayanti Celebration",
+        text: "Food distribution on Dr. Babasaheb Ambedkar Jayanti 2025",
+      },
+      {
+        src: "images/eventimages/eyecheckup2.png",
+        alt: "Eye Checkup Camp",
+        text: "Eye Check-Up Camp 2025",
+      },
+      {
+        src: "images/eventimages/eyecheckup1.png",
+        alt: "Eye Checkup Camp",
+        text: "Eye Check-Up Camp 2025",
+      },
+      {
+        src: "images/eventimages/eyecheckup.png",
+        alt: "Eye Checkup Camp",
+        text: "Eye Check-Up Camp 2025",
+      },
+      {
+        src: "images/eventimages/ramnavmi1.png",
+        alt: "Shree Ram Navam",
+        text: "Food distribution on Shree Ram Navami 2025",
+      },
+      {
+        src: "images/eventimages/ramnavmi.png",
+        alt: "Shree Ram Navam",
+        text: "Food distribution on Shree Ram Navami 2025",
+      },
+      {
+        src: "images/eventimages/Eid1.png",
+        alt: "Eid Celebration",
+        text: "Eid Celebration 2025",
+      },
+      {
+        src: "images/eventimages/Eid.png",
+        alt: "Eid Celebration",
+        text: "Eid Celebration 2025",
+      },
+      {
+        src: "images/eventimages/DentalCamp1.png",
+        alt: "Mega Dental CheckUp Camp",
+        text: "Mega Dental CheckUp Camp",
+      },
+      {
+        src: "images/eventimages/DentalCamp1.png",
+        alt: "Mega Dental CheckUp Camp",
+        text: "Mega Dental CheckUp Camp",
+      },
+      {
+        src: "images/eventimages/DentalCamp.png",
+        alt: "Mega Dental CheckUp Camp",
+        text: "Mega Dental CheckUp Camp",
+      },
+      {
+        src: "images/eventimages/LDMT1.png",
+        alt: "LO Development Training",
+        text: "LO Development Training",
+      },
+      {
+        src: "images/eventimages/LDMT.png",
+        alt: "LO Development Training",
+        text: "LO Development Training",
+      },
+      {
+        src: "images/eventimages/Womens_day2.png",
+        alt: "Womens Day",
+        text: "Womens Day Celebrations 2025",
+      },
+      {
+        src: "images/eventimages/Womens_day1.png",
+        alt: "Womens Day",
+        text: "Womens Day Celebrations 2025",
+      },
+      {
+        src: "images/eventimages/Womens_day.png",
+        alt: "Womens Day",
+        text: "Womens Day Celebrations 2025",
+      },
+      {
+        src: "images/eventimages/mental_Health1.png",
+        alt: "Mental Health Awareness",
+        text: "Mental Health Awareness",
+      },
+      {
+        src: "images/eventimages/mental_Health.png",
+        alt: "Mental Health Awareness",
+        text: "Mental Health Awareness",
+      },
+      {
+        src: "images/eventimages/Innovation_MadePratical1.png",
+        alt: "Innovation made pratical",
+        text: "Innovation Made Practical",
+      },
+      {
+        src: "images/eventimages/Innovation_MadePratical.png",
+        alt: "Innovation made pratical",
+        text: "Innovation Made Practical",
+      },
+      {
+        src: "images/eventimages/AI_Tools1.png",
+        alt: "AI Training",
+        text: "AI for Workplace Success",
+      },
+      {
+        src: "images/eventimages/AI_Tools.png",
+        alt: "AI Training",
+        text: "AI for Workplace Success",
+      },
+      {
+        src: "images/eventimages/international2.png",
+        alt: "International Collaboration",
+        text: "International collaboration with JCI Philippines and JCI Malaysia",
+      },
+      {
+        src: "images/eventimages/international1.png",
+        alt: "International Collaboration",
+        text: "International collaboration with JCI Philippines and JCI Malaysia",
+      },
+      {
+        src: "images/eventimages/international.png",
+        alt: "International Collaboration",
+        text: "International collaboration with JCI Philippines and JCI Malaysia",
+      },
+      {
+        src: "images/eventimages/international.png",
+        alt: "International Collaboration",
+        text: "International collaboration with JCI Philippines and JCI Malaysia",
+      },
+      {
+        src: "images/eventimages/leader11.png",
+        alt: "Leader Training",
+        text: "Leader tranning Day6 2025",
+      },
+      {
+        src: "images/eventimages/leader10.png",
+        alt: "Leader Training",
+        text: "Leader tranning Day6 2025",
+      },
+      {
+        src: "images/eventimages/leader9.png",
+        alt: "Leader Training",
+        text: "Leader tranning Day5 2025",
+      },
+      {
+        src: "images/eventimages/leader8.png",
+        alt: "Leader Training",
+        text: "Leader tranning Day5 2025",
+      },
+      {
+        src: "images/eventimages/leader7.png",
+        alt: "Leader Training",
+        text: "Leader tranning Day4 2025",
+      },
+      {
+        src: "images/eventimages/leader6.png",
+        alt: "Leader Training",
+        text: "Leader tranning Day4 2025",
+      },
+      {
+        src: "images/eventimages/leader5.png",
+        alt: "Leader Training",
+        text: "Leader tranning Day3 2025",
+      },
+      {
+        src: "images/eventimages/leader4.png",
+        alt: "Leader Training",
+        text: "Leader tranning Day3 2025",
+      },
+      {
+        src: "images/eventimages/leader3.png",
+        alt: "Leader Training",
+        text: "Leader tranning Day2 2025",
+      },
+      {
+        src: "images/eventimages/leader2.png",
+        alt: "Leader Training",
+        text: "Leader tranning Day2 2025",
+      },
+      {
+        src: "images/eventimages/leader1.png",
+        alt: "Leader Training",
+        text: "Leader tranning Day1 2025",
+      },
+      {
+        src: "images/eventimages/leader.png",
+        alt: "Leader Training",
+        text: "Leader tranning Day1 2025",
+      },
+      {
+        src: "images/eventimages/OBTpullactivity.png",
+        alt: "Outbound Training",
+        text: "Outbound Training(OBT) Activity 2025",
+      },
+      {
+        src: "images/eventimages/OBTgame.png",
+        alt: "Outbound Training",
+        text: "Outbound Training(OBT) Activity 2025",
+      },
+      {
+        src: "images/eventimages/OBT1.png",
+        alt: "Outbound Training",
+        text: "Outbound Training(OBT) 2025",
+      },
+      {
+        src: "images/eventimages/OBT3.png",
+        alt: "Outbound Training",
+        text: "Outbound Training(OBT) 2025",
+      },
+      {
+        src: "images/eventimages/valentinesday1.png",
+        alt: "valentines day celebration 2025",
+        text: "Valentines Day Celebration 2025",
+      },
+      {
+        src: "images/eventimages/valentinesday.png",
+        alt: "valentines day celebration 2025",
+        text: "Valentines Day Celebration 2025",
+      },
+      {
+        src: "images/eventimages/fooddistribuation1.png",
+        alt: "Food distribution on Chhatrapati Shivaji Maharaj Jayanti",
+        text: "Food distribution on Chhatrapati Shivaji Maharaj Jayanti 2025",
+      },
+      {
+        src: "images/eventimages/fooddistribuation.png",
+        alt: "Food distribution on Chhatrapati Shivaji Maharaj Jayanti",
+        text: "Food distribution on Chhatrapati Shivaji Maharaj Jayanti 2025",
+      },
+      {
+        src: "images/eventimages/shivajimaharajjayanti.png",
+        alt: "Food distribution on Chhatrapati Shivaji Maharaj Jayanti",
+        text: "Food distribution on Chhatrapati Shivaji Maharaj Jayanti 2025",
+      },
+      {
+        src: "images/eventimages/EPS.png",
+        alt: "EPS Training 2025",
+        text: "EPS Training 2025",
+      },
+      {
+        src: "images/eventimages/EPS1.png",
+        alt: "EPS Training 2025",
+        text: "EPS Training 2025",
+      },
+      {
+        src: "images/eventimages/CAPP2.png",
+        alt: "CAPP Training 2025",
+        text: "CAPP Training 2025",
+      },
+      {
+        src: "images/eventimages/PIOC1.png",
+        alt: "PIOC Training 2025",
+        text: "PIOC Training 2025",
+      },
+      {
+        src: "images/eventimages/PIOC2.png",
+        alt: "PIOC Training 2025",
+        text: "PIOC Training 2025",
+      },
+      {
+        src: "images/eventimages/who.png",
+        alt: "Who I am in JCI 2025",
+        text: "Who I am in JCI?",
+      },
+      {
+        src: "images/eventimages/who1.png",
+        alt: "Who I am in JCI 2025",
+        text: "Who I am in JCI?",
+      },
+      {
+        src: "images/eventimages/who2.png",
+        alt: "Who I am in JCI 2025",
+        text: "Who I am in JCI?",
+      },
+      {
+        src: "images/eventimages/17.webp",
+        alt: "Be leader ! Make Leaders ! Empower people ",
+        text: "Be leader ! Make Leaders ! Empower people  ",
+      },
+      {
+        src: "images/eventimages/16.webp",
+        alt: "JCI LO Officer Training  Seminar",
+        text: "JCI LO Officer Training  Seminar",
+      },
+      {
+        src: "images/eventimages/15.webp",
+        alt: "AOS Training",
+        text: "AOS Training",
+      },
+      {
+        src: "images/eventimages/14.webp",
+        alt: "JCOM Business Meeting  ",
+        text: "JCOM Business Meeting         ",
+      },
+      {
+        src: "images/eventimages/13.webp",
+        alt: "JC Kohei Oya from JAPAN Multi LO JCI Vice President Visit At Nagpur !",
+        text: "JC Kohei Oya from JAPAN Multi LO JCI Vice President Visit At Nagpur !",
+      },
+      {
+        src: "images/eventimages/11.webp",
+        alt: "JCI Speech Craft 2024",
+        text: "JCI Speech Craft 2024 ",
+      },
+      {
+        src: "images/eventimages/12.webp",
+        alt: "JCI Speech Craft 2024",
+        text: "JCI Speech Craft 2024 ",
+      },
+      {
+        src: "images/eventimages/10.webp",
+        alt: "Nagpur JCOM TABLE 2.0",
+        text: "Nagpur JCOM TABLE 2.0",
+      },
+      {
+        src: "images/eventimages/7.webp",
+        alt: "CAPP Training",
+        text: "CAPP Training",
+      },
+      {
+        src: "images/eventimages/8.webp",
+        alt: "CAPP Training",
+        text: "CAPP Training         ",
+      },
+      {
+        src: "images/eventimages/9.webp",
+        alt: "CAPP Training",
+        text: "CAPP Training",
       },
       {
         src: "images/eventimages/22.webp",
@@ -198,431 +487,111 @@ const ImageTabs = () => {
         alt: "Corporate Training(Change begins with me)",
         text: "Corporate Training(Change begins with me) ",
       },
-
       {
-        src: "images/eventimages/7.webp",
-        alt: "CAPP Training",
-        text: "CAPP Training",
+        src: "images/eventimages/20.webp",
+        alt: "Corporate Training",
+        text: "Corporate Training",
       },
       {
-        src: "images/eventimages/8.webp",
-        alt: "CAPP Training",
-        text: "CAPP Training         ",
+        src: "images/eventimages/21.webp",
+        alt: "Corporate Training",
+        text: "Corporate Training",
       },
       {
-        src: "images/eventimages/9.webp",
-        alt: "CAPP Training",
-        text: "CAPP Training",
+        src: "images/eventimages/19.webp",
+        alt: "Yoga Training",
+        text: "Yoga Training ",
       },
-
       {
-        src: "images/eventimages/10.webp",
-        alt: "Nagpur JCOM TABLE 2.0",
-        text: "Nagpur JCOM TABLE 2.0",
+        src: "images/eventimages/18.webp",
+        alt: "Blood Donation Camp",
+        text: "Blood Donation Camp",
       },
       {
-        src: "images/eventimages/11.webp",
-        alt: "JCI Speech Craft 2024",
-        text: "JCI Speech Craft 2024 ",
+        src: "images/eventimages/6.webp",
+        alt: "Biz-9 - 2024  Hosted by JCI Raipur Metro Successfully Done",
+        text: "Biz-9 - 2024  Hosted by JCI Raipur Metro Successfully Done",
       },
       {
-        src: "images/eventimages/12.webp",
-        alt: "JCI Speech Craft 2024",
-        text: "JCI Speech Craft 2024 ",
+        src: "images/eventimages/5.webp",
+        alt: "Biz-9 - 2024  Hosted by JCI Raipur Metro Successfully Done",
+        text: "Biz-9 - 2024  Hosted by JCI Raipur Metro Successfully Done",
       },
-
       {
-        src: "images/eventimages/13.webp",
-        alt: "JC Kohei Oya from JAPAN Multi LO JCI Vice President Visit At Nagpur !",
-        text: "JC Kohei Oya from JAPAN Multi LO JCI Vice President Visit At Nagpur !",
+        src: "images/eventimages/4.webp",
+        alt: "MIDCON 2024",
+        text: "MIDCON 2024",
       },
       {
-        src: "images/eventimages/14.webp",
-        alt: "JCOM Business Meeting  ",
-        text: "JCOM Business Meeting         ",
+        src: "images/eventimages/2.webp",
+        alt: "28 & 29 September 2024 JCI Zone 9 Dimond Zonecon 2024 Successfully Done ",
+        text: "28 & 29 September 2024 JCI Zone 9 Dimond Zonecon 2024 Successfully Done         ",
       },
       {
-        src: "images/eventimages/15.webp",
-        alt: "AOS Training",
-        text: "AOS Training",
+        src: "images/eventimages/3.webp",
+        alt: "28 & 29 September 2024 JCI Zone 9 Dimond Zonecon 2024 Successfully Done ",
+        text: "28 & 29 September 2024 JCI Zone 9 Dimond Zonecon 2024 Successfully Done !",
       },
       {
-        src: "images/eventimages/16.webp",
-        alt: "JCI LO Officer Training  Seminar",
-        text: "JCI LO Officer Training  Seminar",
+        src: "images/eventimages/1.webp",
+        alt: "JCI Nagpur Fortune Orientation",
+        text: "JCI Nagpur Fortune Orientation",
       },
       {
-        src: "images/eventimages/17.webp",
-        alt: "Be leader ! Make Leaders ! Empower people ",
-        text: "Be leader ! Make Leaders ! Empower people  ",
+        src: "images/eventimages/25.webp",
+        alt: "Effective Public speaking Training Successfully Done By JCI Nagpur Fortune",
+        text: "Effective Public speaking Training Successfully Done By JCI Nagpur Fortune",
       },
-
       {
-        src: "images/eventimages/who.png",
-        alt: "Who I am in JCI 2025",
-        text: "Who I am in JCI?",
+        src: "images/eventimages/26.webp",
+        alt: "Training On stress Relief Strategies:Finding Calm In Chaos",
+        text: "Training On stress Relief Strategies:Finding Calm In Chaos",
       },
       {
-        src: "images/eventimages/who1.png",
-        alt: "Who I am in JCI 2025",
-        text: "Who I am in JCI?",
+        src: "images/eventimages/30.webp",
+        alt: "MIDCON 2024",
+        text: "JCI Nagpur Fortune First Installation Ceremony",
       },
       {
-        src: "images/eventimages/who2.png",
-        alt: "Who I am in JCI 2025",
-        text: "Who I am in JCI?",
+        src: "images/eventimages/31.webp",
+        alt: "MIDCON 2024",
+        text: "JCI Nagpur Fortune First Installation Ceremony",
       },
-
-      {
-        src: "images/eventimages/PIOC1.png",
-        alt: "PIOC Training 2025",
-        text: "PIOC Training 2025",
-      },
-      {
-        src: "images/eventimages/PIOC2.png",
-        alt: "PIOC Training 2025",
-        text: "PIOC Training 2025",
-      },
-
-      {
-        src: "images/eventimages/CAPP2.png",
-        alt: "CAPP Training 2025",
-        text: "CAPP Training 2025",
-      },
-      {
-        src: "images/eventimages/EPS.png",
-        alt: "EPS Training 2025",
-        text: "EPS Training 2025",
-      },
-      {
-        src: "images/eventimages/EPS1.png",
-        alt: "EPS Training 2025",
-        text: "EPS Training 2025",
-      },
-
-      {
-        src: "images/eventimages/shivajimaharajjayanti.png",
-        alt: "Food distribution on Chhatrapati Shivaji Maharaj Jayanti",
-        text: "Food distribution on Chhatrapati Shivaji Maharaj Jayanti 2025",
-      },
-      {
-        src: "images/eventimages/fooddistribuation.png",
-        alt: "Food distribution on Chhatrapati Shivaji Maharaj Jayanti",
-        text: "Food distribution on Chhatrapati Shivaji Maharaj Jayanti 2025",
-      },
-      {
-        src: "images/eventimages/fooddistribuation1.png",
-        alt: "Food distribution on Chhatrapati Shivaji Maharaj Jayanti",
-        text: "Food distribution on Chhatrapati Shivaji Maharaj Jayanti 2025",
-      },
-      {
-        src: "images/eventimages/valentinesday.png",
-        alt: "valentines day celebration 2025",
-        text: "Valentines Day Celebration 2025",
-      },
-      {
-        src: "images/eventimages/valentinesday1.png",
-        alt: "valentines day celebration 2025",
-        text: "Valentines Day Celebration 2025",
-      },
-      {
-        src: "images/eventimages/OBT3.png",
-        alt: "Outbound Training",
-        text: "Outbound Training(OBT) 2025",
-      },
-      {
-        src: "images/eventimages/OBT1.png",
-        alt: "Outbound Training",
-        text: "Outbound Training(OBT) 2025",
-      },
-      {
-        src: "images/eventimages/OBTgame.png",
-        alt: "Outbound Training",
-        text: "Outbound Training(OBT) Activity 2025",
-      },
-      {
-        src: "images/eventimages/OBTpullactivity.png",
-        alt: "Outbound Training",
-        text: "Outbound Training(OBT) Activity 2025",
-      },
-
-      {
-        src: "images/eventimages/leader.png",
-        alt: "Leader Training",
-        text: "Leader tranning Day1 2025",
-      },
-      {
-        src: "images/eventimages/leader1.png",
-        alt: "Leader Training",
-        text: "Leader tranning Day1 2025",
-      },
-      {
-        src: "images/eventimages/leader2.png",
-        alt: "Leader Training",
-        text: "Leader tranning Day2 2025",
-      },
-      {
-        src: "images/eventimages/leader3.png",
-        alt: "Leader Training",
-        text: "Leader tranning Day2 2025",
-      },
-      {
-        src: "images/eventimages/leader4.png",
-        alt: "Leader Training",
-        text: "Leader tranning Day3 2025",
-      },
-      {
-        src: "images/eventimages/leader5.png",
-        alt: "Leader Training",
-        text: "Leader tranning Day3 2025",
-      },
-      {
-        src: "images/eventimages/leader6.png",
-        alt: "Leader Training",
-        text: "Leader tranning Day4 2025",
-      },
-      {
-        src: "images/eventimages/leader7.png",
-        alt: "Leader Training",
-        text: "Leader tranning Day4 2025",
-      },
-      {
-        src: "images/eventimages/leader8.png",
-        alt: "Leader Training",
-        text: "Leader tranning Day5 2025",
-      },
-      {
-        src: "images/eventimages/leader9.png",
-        alt: "Leader Training",
-        text: "Leader tranning Day5 2025",
-      },
-      {
-        src: "images/eventimages/leader10.png",
-        alt: "Leader Training",
-        text: "Leader tranning Day6 2025",
-      },
-      {
-        src: "images/eventimages/leader11.png",
-        alt: "Leader Training",
-        text: "Leader tranning Day6 2025",
-      },
-
-      {
-        src: "images/eventimages/international.png",
-        alt: "International Collaboration",
-        text: "International collaboration with JCI Philippines and JCI Malaysia",
-      },
-      {
-        src: "images/eventimages/international1.png",
-        alt: "International Collaboration",
-        text: "International collaboration with JCI Philippines and JCI Malaysia",
-      },
-      {
-        src: "images/eventimages/international2.png",
-        alt: "International Collaboration",
-        text: "International collaboration with JCI Philippines and JCI Malaysia",
-      },
-
-      {
-        src: "images/eventimages/AI_Tools.png",
-        alt: "AI Training",
-        text: "AI for Workplace Success",
-      },
-      {
-        src: "images/eventimages/AI_Tools1.png",
-        alt: "AI Training",
-        text: "AI for Workplace Success",
-      },
-      {
-        src: "images/eventimages/Innovation_MadePratical.png",
-        alt: "Innovation made pratical",
-        text: "Innovation Made Practical",
-      },
-      {
-        src: "images/eventimages/Innovation_MadePratical1.png",
-        alt: "Innovation made pratical",
-        text: "Innovation Made Practical",
-      },
-      {
-        src: "images/eventimages/mental_Health.png",
-        alt: "Mental Health Awareness",
-        text: "Mental Health Awareness",
-      },
-      {
-        src: "images/eventimages/mental_Health1.png",
-        alt: "Mental Health Awareness",
-        text: "Mental Health Awareness",
-      },
-      {
-        src: "images/eventimages/Womens_day.png",
-        alt: "Womens Day",
-        text: "Womens Day Celebrations 2025",
-      },
-      {
-        src: "images/eventimages/Womens_day1.png",
-        alt: "Womens Day",
-        text: "Womens Day Celebrations 2025",
-      },
-      {
-        src: "images/eventimages/Womens_day2.png",
-        alt: "Womens Day",
-        text: "Womens Day Celebrations 2025",
-      },
-      {
-        src: "images/eventimages/JCI_ActionFramework.png",
-        alt: "JCI Action Framework",
-        text: "JCI Action Framework",
-      },
-      {
-        src: "images/eventimages/JCI_ActionFramework1.png",
-        alt: "JCI Action Framework",
-        text: "JCI Action Framework",
-      },
-      {
-        src: "images/eventimages/LDMT.png",
-        alt: "LO Development Training",
-        text: "LO Development Training",
-      },
-      {
-        src: "images/eventimages/LDMT1.png",
-        alt: "LO Development Training",
-        text: "LO Development Training",
-      },
-      {
-        src: "images/eventimages/DentalCamp.png",
-        alt: "Mega Dental CheckUp Camp",
-        text: "Mega Dental CheckUp Camp",
-      },
-      {
-        src: "images/eventimages/DentalCamp1.png",
-        alt: "Mega Dental CheckUp Camp",
-        text: "Mega Dental CheckUp Camp",
-      },
-       {
-        src: "images/eventimages/DentalCamp1.png",
-        alt: "Mega Dental CheckUp Camp",
-        text: "Mega Dental CheckUp Camp",
-      },
-      {
-        src: "images/eventimages/Eid.png",
-        alt: "Eid Celebration",
-        text: "Eid Celebration 2025",
-      },
-      {
-        src: "images/eventimages/Eid1.png",
-        alt: "Eid Celebration",
-        text: "Eid Celebration 2025",
-      },
-      {
-        src: "images/eventimages/ramnavmi.png",
-        alt: "Shree Ram Navam",
-        text: "Food distribution on Shree Ram Navami 2025",
-      },
-      {
-        src: "images/eventimages/ramnavmi1.png",
-        alt: "Shree Ram Navam",
-        text: "Food distribution on Shree Ram Navami 2025",
-      },
-      {
-        src: "images/eventimages/eyecheckup.png",
-        alt: "Eye Checkup Camp",
-        text: "Eye Check-Up Camp 2025",
-      },
-      {
-        src: "images/eventimages/eyecheckup1.png",
-        alt: "Eye Checkup Camp",
-        text: "Eye Check-Up Camp 2025",
-      },
-      {
-        src: "images/eventimages/eyecheckup2.png",
-        alt: "Eye Checkup Camp",
-        text: "Eye Check-Up Camp 2025",
-      },
-      {
-        src: "images/eventimages/Drbabasahebjyanti.png",
-        alt: "Dr. Babasaheb Ambedkar Jayanti Celebration",
-        text: "Food distribution on Dr. Babasaheb Ambedkar Jayanti 2025",
-      }, {
-        src: "images/eventimages/Drbabasahebjayanti1.png",
-        alt: "Dr. Babasaheb Ambedkar Jayanti Celebration",
-        text: "Food distribution on Dr. Babasaheb Ambedkar Jayanti 2025",
-      },
-      {
-        src: "images/eventimages/startup.png",
-        alt: "Dr. Babasaheb Ambedkar Jayanti Celebration",
-        text: "Sucessful Startup Training 2025",
-      },
-      {
-        src: "images/eventimages/startup1.png",
-        alt: "Dr. Babasaheb Ambedkar Jayanti Celebration",
-        text: "Sucessful Startup Training 2025",
-      },
-      {
-       
-       src: "images/eventimages/workloadbalance.png",
-       alt: "Work Life Balance",
-       text: "Work Life Balance Training 2025",
-     },
-     {
-  
-     src: "images/eventimages/workloadbalance1.png",
-     alt: "Work Life Balance",
-     text: "Work Life Balance Training 2025",
-   },
-   {
-        
-    src: "images/gallery/stress management Training/Untitled design (2).png",
-    alt: "Stress Management Training",
-    text: "Stress Management Training 2025",
-  },
-  {
-    
-    src: "images/gallery/stress management Training/Untitled design (3).png",
-    alt: "Stress Management Training",
-    text: "Stress Management Training 2025",
-  },
-  {
-          
-    src: "images/gallery/Salute the Silent Stars/Untitled design (1).png",
-    alt: "Salute the Silent Stars",
-    text: "Salute the Silent Stars 2025",
-  },
-  {
-      
-    src: "images/gallery/Salute the Silent Stars/Untitled design (2).png",
-    alt: "Salute the Silent Stars",
-    text: "Salute the Silent Stars 2025",
-  }, 
     ],
 
     training: [
       // fist image
       {
-        
+        src: "images/gallery/Beyond Words Elevating Corporate Communications/Beyond Words Elevating Corporate Communications.png",
+        alt: "Beyond Words Elevating Corporate Communications -2025",
+        text: "Beyond Words Elevating Corporate Communications -2025",
+      },
+      {
+        src: "images/gallery/Values & ethics -2025/Values & ethics -2025 (1).png",
+        alt: "Values & ethics -2025",
+        text: "Values & ethics -2025",
+      },
+      {
         src: "images/gallery/stress management Training/Untitled design (2).png",
         alt: "Stress Management Training",
         text: "Stress Management Training 2025",
       },
       {
-        
         src: "images/gallery/stress management Training/Untitled design (3).png",
         alt: "Stress Management Training",
         text: "Stress Management Training 2025",
       },
       {
-        
-       src: "images/eventimages/workloadbalance.png",
-       alt: "Work Life Balance",
-       text: "Work Life Balance Training 2025",
-     },
-     {
-  
-     src: "images/eventimages/workloadbalance1.png",
-     alt: "Work Life Balance",
-     text: "Work Life Balance Training 2025",
-   },
+        src: "images/eventimages/workloadbalance.png",
+        alt: "Work Life Balance",
+        text: "Work Life Balance Training 2025",
+      },
       {
-        
+        src: "images/eventimages/workloadbalance1.png",
+        alt: "Work Life Balance",
+        text: "Work Life Balance Training 2025",
+      },
+      {
         src: "images/eventimages/startup.png",
         alt: "Sucessful Startup Training 2025",
         text: "Sucessful Startup Training 2025",
@@ -633,7 +602,6 @@ const ImageTabs = () => {
         text: "Sucessful Startup Training 2025",
       },
       {
-       
         src: "images/eventimages/JCI_ActionFramework.png",
         alt: "JCI Action Framework",
         text: "JCI Action Framework",
@@ -764,30 +732,31 @@ const ImageTabs = () => {
     Community: [
       // fisrt image
       {
-          
+        src: "images/gallery/Clothes and Fruits Donation Drive/Clothes and Fruits Donation Drive.png",
+        alt: "Clothes and Fruits Donation Drive",
+        text: "Clothes and Fruits Donation Drive 2025",
+      },
+      {
         src: "images/gallery/Salute the Silent Stars/Untitled design (1).png",
         alt: "Salute the Silent Stars",
         text: "Salute the Silent Stars 2025",
       },
       {
-          
         src: "images/gallery/Salute the Silent Stars/Untitled design (2).png",
         alt: "Salute the Silent Stars",
         text: "Salute the Silent Stars 2025",
-      }, 
+      },
       {
-          
         src: "images/eventimages/Drbabasahebjyanti.png",
         alt: "Dr. Babasaheb Ambedkar Jayanti Celebration",
         text: "Food distribution on Dr. Babasaheb Ambedkar Jayanti 2025",
-      }, 
+      },
       {
         src: "images/eventimages/Drbabasahebjayanti1.png",
         alt: "Dr. Babasaheb Ambedkar Jayanti Celebration",
         text: "Food distribution on Dr. Babasaheb Ambedkar Jayanti 2025",
       },
       {
-         
         src: "images/eventimages/eyecheckup.png",
         alt: "Eye Checkup Camp",
         text: "Eye Check-Up Camp 2025",
@@ -802,9 +771,8 @@ const ImageTabs = () => {
         alt: "Eye Checkup Camp",
         text: "Eye Check-Up Camp 2025",
       },
-      
+
       {
-      
         src: "images/eventimages/ramnavmi.png",
         alt: "Shree Ram Navam",
         text: "Food distribution on Shree Ram Navami 2025",
@@ -825,7 +793,6 @@ const ImageTabs = () => {
         text: "Eid Celebration 2025",
       },
       {
-       
         src: "images/eventimages/DentalCamp.png",
         alt: "Mega Dental CheckUp Camp",
         text: "Mega Dental CheckUp Camp",
@@ -884,7 +851,6 @@ const ImageTabs = () => {
     ],
 
     management: [
-    
       {
         // fisrt image
         src: "images/eventimages/LDMT.png",

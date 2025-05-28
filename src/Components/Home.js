@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react"
-import { useLocation } from "react-router-dom"
-import { Helmet } from "react-helmet"
-import { Link } from "react-router-dom"
+import { useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
+import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 
 const schemaMarkup = {
   "@context": "http://schema.org",
@@ -10,9 +10,11 @@ const schemaMarkup = {
   url: "https://www.jcinagpurfortune.in/",
   logo: "https://www.jcinagpurfortune.in/images/images/logo4.png",
   image: "https://www.jcinagpurfortune.in/images/logo.png",
-  description: "Join JCI Nagpur Fortune to empower youth and create positive change in your community",
-  keyword: "fortune, jci, jci nagpur, Best LO, jci LO, jci in Nagpur, jci  LO in Nagpur, Best jci LO in Nagpur, Best jci LO in India, Best jci LO in Maharashtra, Best JCI LO, jci in Maharashtra, jci Events in Nagpur, jci Leadership Training, jci Nagpur Projects,jci member,youthpower,empoweryouth,Youth Empowerment Organization,JCI Nagpur Fortune, JCI Nagpur Fortune social impact, JCI Nagpur Fortune networking, JCI Nagpur fortune leadership development, JCI Nagpur community service, JCI Nagpur fortune community,JCI Nagpur fortune chapter , JCI Nagpur fortune membership,JCI Nagpur fortune training programs, JCI chapters in Maharashtra,Youth organizations in Nagpur,Leadership training in Nagpur,Community development Nagpur,Professional networking Nagpur,Youth leadership Nagpur,Social entrepreneurship Nagpur,Youth empowerment programs Nagpur,Leadership skills development,Professional growth opportunities,Community impact initiatives,Young leaders network,Business skills for youth,Personal development organization,CI Nagpur workshops,JCI Nagpur training programs,JCI Nagpur conferences,JCI Nagpur seminars,JCI Nagpur community projects,JCI Nagpur youth programs,JCI Nagpur skill development,JCI Nagpur entrepreneurship programs",
-             
+  description:
+    "Join JCI Nagpur Fortune to empower youth and create positive change in your community",
+  keyword:
+    "fortune, jci, jci nagpur, Best LO, jci LO, jci in Nagpur, jci  LO in Nagpur, Best jci LO in Nagpur, Best jci LO in India, Best jci LO in Maharashtra, Best JCI LO, jci in Maharashtra, jci Events in Nagpur, jci Leadership Training, jci Nagpur Projects,jci member,youthpower,empoweryouth,Youth Empowerment Organization,JCI Nagpur Fortune, JCI Nagpur Fortune social impact, JCI Nagpur Fortune networking, JCI Nagpur fortune leadership development, JCI Nagpur community service, JCI Nagpur fortune community,JCI Nagpur fortune chapter , JCI Nagpur fortune membership,JCI Nagpur fortune training programs, JCI chapters in Maharashtra,Youth organizations in Nagpur,Leadership training in Nagpur,Community development Nagpur,Professional networking Nagpur,Youth leadership Nagpur,Social entrepreneurship Nagpur,Youth empowerment programs Nagpur,Leadership skills development,Professional growth opportunities,Community impact initiatives,Young leaders network,Business skills for youth,Personal development organization,CI Nagpur workshops,JCI Nagpur training programs,JCI Nagpur conferences,JCI Nagpur seminars,JCI Nagpur community projects,JCI Nagpur youth programs,JCI Nagpur skill development,JCI Nagpur entrepreneurship programs",
+
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "4.9",
@@ -20,7 +22,8 @@ const schemaMarkup = {
   },
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Lower Ground Fortune Mall, behind Maharashtra bank, Sitabuldi, Nagpur",
+    streetAddress:
+      "Lower Ground Fortune Mall, behind Maharashtra bank, Sitabuldi, Nagpur",
     addressLocality: "Nagpur",
     addressRegion: "Maharashtra",
     postalCode: "440012",
@@ -37,7 +40,7 @@ const schemaMarkup = {
     telephone: "+919975288300",
     contactType: "customer support",
   },
-}
+};
 
 const counters = [
   {
@@ -72,34 +75,39 @@ const counters = [
     stop: 50,
     speed: 2500,
   },
-]
+];
 
 function Index() {
-  const location = useLocation()
-  const [counts, setCounts] = useState(counters.map((counter) => counter.start))
+  const location = useLocation();
+  const [counts, setCounts] = useState(
+    counters.map((counter) => counter.start)
+  );
 
   useEffect(() => {
     window.gtag("config", "G-XQGMYG40J6", {
       page_path: location.pathname,
-    })
-  }, [location])
+    });
+  }, [location]);
 
   useEffect(() => {
     const intervalIds = counters.map((counter, index) => {
-      const increment = Math.ceil(counter.stop / (counter.speed / 50)) // Adjust increment speed
+      const increment = Math.ceil(counter.stop / (counter.speed / 50)); // Adjust increment speed
       return setInterval(() => {
         setCounts((prevCounts) => {
-          const newCounts = [...prevCounts]
+          const newCounts = [...prevCounts];
           if (newCounts[index] < counter.stop) {
-            newCounts[index] = Math.min(newCounts[index] + increment, counter.stop)
+            newCounts[index] = Math.min(
+              newCounts[index] + increment,
+              counter.stop
+            );
           }
-          return newCounts
-        })
-      }, 50)
-    })
+          return newCounts;
+        });
+      }, 50);
+    });
 
-    return () => intervalIds.forEach(clearInterval)
-  }, [])
+    return () => intervalIds.forEach(clearInterval);
+  }, []);
 
   return (
     <>
@@ -116,30 +124,69 @@ function Index() {
         <link rel="canonical" href="https://www.jcinagpurfortune.in/" />
 
         {/* Added OpenGraph meta tags */}
-        <meta property="og:title" content="JCI Nagpur Fortune - Youth Empowerment Organization" />
+        <meta
+          property="og:title"
+          content="JCI Nagpur Fortune - Youth Empowerment Organization"
+        />
         <meta
           property="og:description"
           content="Join JCI Nagpur Fortune to empower youth and create positive change in your community. We develop leadership skills and provide sustainable solutions for a better tomorrow."
         />
-        <meta property="og:image" content="https://www.jcinagpurfortune.in/images/logo.png" />
+        <meta
+          property="og:image"
+          content="https://www.jcinagpurfortune.in/images/logo.png"
+        />
         <meta property="og:url" content="https://www.jcinagpurfortune.in/" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="JCI Nagpur Fortune" />
 
         {/* Added Twitter Card meta tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="JCI Nagpur Fortune - Youth Empowerment Organization" />
+        <meta
+          name="twitter:title"
+          content="JCI Nagpur Fortune - Youth Empowerment Organization"
+        />
         <meta
           name="twitter:description"
           content="Join JCI Nagpur Fortune to empower youth and create positive change in your community."
         />
-        <meta name="twitter:image" content="https://www.jcinagpurfortune.in/images/logo.png" />
+        <meta
+          name="twitter:image"
+          content="https://www.jcinagpurfortune.in/images/logo.png"
+        />
         <meta name="twitter:site" content="@jcinagpufortune" />
 
-        <script type="application/ld+json">{JSON.stringify(schemaMarkup)}</script>
+        <script type="application/ld+json">
+          {JSON.stringify(schemaMarkup)}
+        </script>
       </Helmet>
 
       <div>
+        <h1
+          style={{
+            position: "absolute",
+            left: "-9999px",
+            top: "auto",
+            width: "1px",
+            height: "1px",
+            overflow: "hidden",
+          }}
+        >
+          Welcome to JCI Nagpur Fortune - Empowering Youth
+        </h1>
+        <h2
+          style={{
+            position: "absolute",
+            left: "-9999px",
+            top: "auto",
+            width: "1px",
+            height: "1px",
+            overflow: "hidden",
+          }}
+        >
+          Empowering Leaders. Building Communities.
+        </h2>
+
         {/* Main Slider */}
         <div id="demo" className="carousel slide p-3" data-bs-ride="carousel">
           {/* Indicators/dots */}
@@ -151,15 +198,51 @@ function Index() {
               className="active"
               aria-current="true"
             ></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="7"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="8"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="9"></button>
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="4"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="5"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="6"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="7"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="8"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="9"
+            ></button>
           </div>
 
           {/* The slideshow/carousel */}
@@ -366,16 +449,29 @@ function Index() {
           </div>
 
           {/* Left and right controls/icons */}
-          <button className="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <button
+            className="carousel-control-prev"
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide="prev"
+          >
             <span className="carousel-control-prev-icon"></span>
           </button>
-          <button className="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <button
+            className="carousel-control-next"
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide="next"
+          >
             <span className="carousel-control-next-icon"></span>
           </button>
         </div>
 
         {/* Goal Section */}
-        <section className="goal-section" style={{ backgroundImage: "url(images/background/2.jpg )" }}>
+        <section
+          className="goal-section"
+          style={{ backgroundImage: "url(images/background/2.jpg )" }}
+        >
           <div className="auto-container">
             {/* Sec Title */}
             <div className="sec-title centered">
@@ -384,14 +480,19 @@ function Index() {
                 <h1 className="main-heading">Welcome To JCI Nagpur Fortune</h1>
               </div>
               <h2>
-                <span className="theme_color">Mission & </span> <span style={{ color: "#f2ad45" }}>Goals</span>
+                <span className="theme_color">Mission & </span>{" "}
+                <span style={{ color: "#f2ad45" }}>Goals</span>
               </h2>
             </div>
 
             <div className="row clearfix">
               {/* Goal Block */}
               <div className="goal-block col-lg-4 col-md-6 col-sm-12">
-                <div className="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                <div
+                  className="inner-box wow fadeInUp"
+                  data-wow-delay="0ms"
+                  data-wow-duration="1500ms"
+                >
                   <div className="hover-one"></div>
                   <div className="hover-two"></div>
                   <div className="icon-box">
@@ -403,14 +504,19 @@ function Index() {
                     </Link>
                   </h3>
                   <div className="text">
-                    Junior Chamber International (JCI) is a worldwide federation of young leaders and entrepreneurs.
+                    Junior Chamber International (JCI) is a worldwide federation
+                    of young leaders and entrepreneurs.
                   </div>
                 </div>
               </div>
 
               {/* Goal Block */}
               <div className="goal-block col-lg-4 col-md-6 col-sm-12">
-                <div className="inner-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                <div
+                  className="inner-box wow fadeInUp"
+                  data-wow-delay="300ms"
+                  data-wow-duration="1500ms"
+                >
                   <div className="hover-one"></div>
                   <div className="hover-two"></div>
                   <div className="icon-box">
@@ -421,13 +527,19 @@ function Index() {
                       JCI Vision
                     </Link>
                   </h3>
-                  <div className="text">To be the leading global network of Young Active Citizens.</div>
+                  <div className="text">
+                    To be the leading global network of Young Active Citizens.
+                  </div>
                 </div>
               </div>
 
               {/* Goal Block */}
               <div className="goal-block col-lg-4 col-md-6 col-sm-12">
-                <div className="inner-box wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                <div
+                  className="inner-box wow fadeInUp"
+                  data-wow-delay="600ms"
+                  data-wow-duration="1500ms"
+                >
                   <div className="hover-one"></div>
                   <div className="hover-two"></div>
                   <div className="icon-box">
@@ -439,7 +551,8 @@ function Index() {
                     </Link>
                   </h3>
                   <div className="text">
-                    To Provide Development Opportunities that empower young people to create positive changes.
+                    To Provide Development Opportunities that empower young
+                    people to create positive changes.
                   </div>
                 </div>
               </div>
@@ -457,12 +570,16 @@ function Index() {
                   <h2>
                     What is <span className="theme_color">JCI</span>
                   </h2>
-                  <div className="bold-text">Developing Leaders for a Changing World</div>
+                  <div className="bold-text">
+                    Developing Leaders for a Changing World
+                  </div>
                   <div className="text">
-                    Junior Chamber International (JCI) is a worldwide federation of young leaders and entrepreneurs with
-                    nearly five lakh active members and millions of alumni spread across more than 115 countries. We are
-                    young active citizens all over the world, living, communicating, taking action and creating impact
-                    in our communities.
+                    Junior Chamber International (JCI) is a worldwide federation
+                    of young leaders and entrepreneurs with nearly five lakh
+                    active members and millions of alumni spread across more
+                    than 115 countries. We are young active citizens all over
+                    the world, living, communicating, taking action and creating
+                    impact in our communities.
                   </div>
 
                   <Link
@@ -487,11 +604,21 @@ function Index() {
               <div className="video-column col-lg-6 col-md-12 col-sm-12">
                 <div className="inner-column">
                   {/* Video Box */}
-                  <div className="video-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+                  <div
+                    className="video-box wow fadeInRight"
+                    data-wow-delay="0ms"
+                    data-wow-duration="1500ms"
+                  >
                     <figure className="video-image">
-                      <img src="images/resource/video-img.jpeg" alt="JCI India" />
+                      <img
+                        src="images/resource/video-img.jpeg"
+                        alt="JCI India"
+                      />
                     </figure>
-                    <a href="https://www.youtube.com/watch?v=unZPbEp17sY" className="lightbox-image overlay-box">
+                    <a
+                      href="https://www.youtube.com/watch?v=unZPbEp17sY"
+                      className="lightbox-image overlay-box"
+                    >
                       <span className="flaticon-play-button">
                         <i className="ripple"></i>
                       </span>
@@ -504,12 +631,18 @@ function Index() {
         </section>
 
         {/* Counter Section */}
-        <section className="counter-section" style={{ backgroundImage: "url(images/background/1.jpg)" }}>
+        <section
+          className="counter-section"
+          style={{ backgroundImage: "url(images/background/1.jpg)" }}
+        >
           <div className="auto-container">
             <div className="fact-counter">
               <div className="row clearfix">
                 {counters.map((counter, index) => (
-                  <div key={counter.id} className="column counter-column col-lg-3 col-md-6 col-sm-12">
+                  <div
+                    key={counter.id}
+                    className="column counter-column col-lg-3 col-md-6 col-sm-12"
+                  >
                     <div
                       className="inner wow fadeInLeft"
                       data-wow-delay={`${index * 300}ms`}
@@ -532,45 +665,67 @@ function Index() {
         </section>
 
         {/* Services Section */}
-        <section className="services-section" style={{ backgroundImage: "url(images/background/2.jpg)" }}>
+        <section
+          className="services-section"
+          style={{ backgroundImage: "url(images/background/2.jpg)" }}
+        >
           <div className="auto-container">
             <div className="row clearfix">
               {/* Service Block */}
               <div className="service-block col-lg-4 col-md-6 col-sm-12">
-                <div className="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                <div
+                  className="inner-box wow fadeInUp"
+                  data-wow-delay="0ms"
+                  data-wow-duration="1500ms"
+                >
                   <div className="icon-box">
                     <span className="icon flaticon-donation-1"></span>
                   </div>
                   <h3>
                     <Link href="/leadership">Leadership Organization</Link>
                   </h3>
-                  <div className="text">We develop leaders for a better tomorrow</div>
+                  <div className="text">
+                    We develop leaders for a better tomorrow
+                  </div>
                 </div>
               </div>
 
               {/* Service Block */}
               <div className="service-block col-lg-4 col-md-6 col-sm-12">
-                <div className="inner-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                <div
+                  className="inner-box wow fadeInUp"
+                  data-wow-delay="300ms"
+                  data-wow-duration="1500ms"
+                >
                   <div className="icon-box">
                     <span className="icon flaticon-money-bag"></span>
                   </div>
                   <h3>
                     <Link href="/solutions">Sustainable Solutions</Link>
                   </h3>
-                  <div className="text">Our members provide sustainable solutions in their region</div>
+                  <div className="text">
+                    Our members provide sustainable solutions in their region
+                  </div>
                 </div>
               </div>
 
               {/* Service Block */}
               <div className="service-block col-lg-4 col-md-6 col-sm-12">
-                <div className="inner-box wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                <div
+                  className="inner-box wow fadeInUp"
+                  data-wow-delay="600ms"
+                  data-wow-duration="1500ms"
+                >
                   <div className="icon-box">
                     <span className="icon flaticon-heart-3"></span>
                   </div>
                   <h3>
                     <Link href="/active-leaders">Young active leaders</Link>
                   </h3>
-                  <div className="text">We are the largest organization with young and active leaders</div>
+                  <div className="text">
+                    We are the largest organization with young and active
+                    leaders
+                  </div>
                 </div>
               </div>
             </div>
@@ -589,9 +744,16 @@ function Index() {
             <div className="row clearfix">
               {/* Image Column */}
               <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                <div className="inner-column wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                <div
+                  className="inner-column wow fadeInLeft"
+                  data-wow-delay="0ms"
+                  data-wow-duration="1500ms"
+                >
                   <div className="image">
-                    <img src="images/resource/president.jpg" alt="Mr.Prashant Kadhao" />
+                    <img
+                      src="images/resource/president.jpg"
+                      alt="Mr.Prashant Kadhao"
+                    />
                   </div>
                 </div>
               </div>
@@ -610,7 +772,10 @@ function Index() {
                           <h4>Founder President Of JCI Nagpur Fortune</h4>
                         </li>
                         <li>
-                          <h4>Founder and Director Of PSK Technologies Pvt.LTD IT Company</h4>
+                          <h4>
+                            Founder and Director Of PSK Technologies Pvt.LTD IT
+                            Company
+                          </h4>
                         </li>
                       </ul>
                     </div>
@@ -618,17 +783,24 @@ function Index() {
 
                   <div className="text">
                     <p align="justify">
-                      With over 17+ years of experience in the IT field and 13+ years of successfully running his own
-                      company, Prashant is a expertize and certified in LINUX (RHCSA/RHEL), Microsoft technologies, and
-                      AWS Solutions,Computer solution and infrastructure. He has completed over 500 projects and
-                      facilitated the placement of more than 2000 interns in leading companies, showcasing his
-                      commitment to talent development. Prashant holds an MBA in Marketing and is a certified
-                      professional with credentials including BIZ XI, Speech Craft 2024, AOS 2024, EPS, and more. As a
-                      public speaker and self-mastery coach, he empowers individuals and supports interns in startups,
-                      focusing on personal and professional growth through mindset shifts and holistic well-being. In
-                      2023, Prashant joined JCI, where he quickly rose to prominence, serving as VPPR and later as VPBO
-                      in 2024. On September 25, 2024, he founded JCI Nagpur Fortune, where he currently serves as the
-                      Founder President, continuing his mission to inspire youth.
+                      With over 17+ years of experience in the IT field and 13+
+                      years of successfully running his own company, Prashant is
+                      a expertize and certified in LINUX (RHCSA/RHEL), Microsoft
+                      technologies, and AWS Solutions,Computer solution and
+                      infrastructure. He has completed over 500 projects and
+                      facilitated the placement of more than 2000 interns in
+                      leading companies, showcasing his commitment to talent
+                      development. Prashant holds an MBA in Marketing and is a
+                      certified professional with credentials including BIZ XI,
+                      Speech Craft 2024, AOS 2024, EPS, and more. As a public
+                      speaker and self-mastery coach, he empowers individuals
+                      and supports interns in startups, focusing on personal and
+                      professional growth through mindset shifts and holistic
+                      well-being. In 2023, Prashant joined JCI, where he quickly
+                      rose to prominence, serving as VPPR and later as VPBO in
+                      2024. On September 25, 2024, he founded JCI Nagpur
+                      Fortune, where he currently serves as the Founder
+                      President, continuing his mission to inspire youth.
                     </p>
                   </div>
                 </div>
@@ -648,8 +820,9 @@ function Index() {
           <div className="auto-container">
             <h2>What we do</h2>
             <div className="text">
-              We develop skills, knowledge and leadership abilities of young citizens who go on to provide sustainable
-              solutions that creates a positive impact
+              We develop skills, knowledge and leadership abilities of young
+              citizens who go on to provide sustainable solutions that creates a
+              positive impact
             </div>
             <Link
               to="/contact"
@@ -673,14 +846,38 @@ function Index() {
           </div>
           <div className="various-color clearfix">
             <div className="colors-list">
-              <span className="palate default-color active" data-theme-file="css/color-themes/default-theme.css"></span>
-              <span className="palate green-color" data-theme-file="css/color-themes/green-theme.css"></span>
-              <span className="palate blue-color" data-theme-file="css/color-themes/blue-theme.css"></span>
-              <span className="palate orange-color" data-theme-file="css/color-themes/orange-theme.css"></span>
-              <span className="palate purple-color" data-theme-file="css/color-themes/purple-theme.css"></span>
-              <span className="palate teal-color" data-theme-file="css/color-themes/teal-theme.css"></span>
-              <span className="palate brown-color" data-theme-file="css/color-themes/brown-theme.css"></span>
-              <span className="palate yellow-color" data-theme-file="css/color-themes/yellow-color.css"></span>
+              <span
+                className="palate default-color active"
+                data-theme-file="css/color-themes/default-theme.css"
+              ></span>
+              <span
+                className="palate green-color"
+                data-theme-file="css/color-themes/green-theme.css"
+              ></span>
+              <span
+                className="palate blue-color"
+                data-theme-file="css/color-themes/blue-theme.css"
+              ></span>
+              <span
+                className="palate orange-color"
+                data-theme-file="css/color-themes/orange-theme.css"
+              ></span>
+              <span
+                className="palate purple-color"
+                data-theme-file="css/color-themes/purple-theme.css"
+              ></span>
+              <span
+                className="palate teal-color"
+                data-theme-file="css/color-themes/teal-theme.css"
+              ></span>
+              <span
+                className="palate brown-color"
+                data-theme-file="css/color-themes/brown-theme.css"
+              ></span>
+              <span
+                className="palate yellow-color"
+                data-theme-file="css/color-themes/yellow-color.css"
+              ></span>
             </div>
           </div>
 
@@ -699,8 +896,8 @@ function Index() {
 
           <div className="palate-foo">
             <span>
-              You will find much more options for colors and styling in admin panel. This color picker is used only for
-              demonstation purposes.
+              You will find much more options for colors and styling in admin
+              panel. This color picker is used only for demonstation purposes.
             </span>
           </div>
         </div>
@@ -725,11 +922,15 @@ function Index() {
                     <div className="content-box">
                       <h2>About Us</h2>
                       <p className="text">
-                        Core values are the fundamental beliefs of a person or organization. The core values are the
-                        guiding principles that dictate behavior and action suas labore saperet has there any quote for
-                        write lorem percit latineu.
+                        Core values are the fundamental beliefs of a person or
+                        organization. The core values are the guiding principles
+                        that dictate behavior and action suas labore saperet has
+                        there any quote for write lorem percit latineu.
                       </p>
-                      <Link href="/consultation" className="theme-btn btn-style-three">
+                      <Link
+                        href="/consultation"
+                        className="theme-btn btn-style-three"
+                      >
                         <i>Consultation</i>
                       </Link>
                     </div>
@@ -738,7 +939,8 @@ function Index() {
                       <ul className="list-style-one">
                         <li>
                           <span className="icon flaticon-map-1"></span>
-                          Lower Ground Fortune Mall, behind Maharashtra bank, Sitabuldi, Nagpur
+                          Lower Ground Fortune Mall, behind Maharashtra bank,
+                          Sitabuldi, Nagpur
                         </li>
                         <li>
                           <span className="icon flaticon-telephone"></span>
@@ -763,7 +965,10 @@ function Index() {
                         ></a>
                       </li>
                       <li className="twitter">
-                        <a href="https://x.com/jcinagpufortune" className="fab fa-twitter"></a>
+                        <a
+                          href="https://x.com/jcinagpufortune"
+                          className="fab fa-twitter"
+                        ></a>
                       </li>
                       <li className="linkedin">
                         <a
@@ -772,7 +977,10 @@ function Index() {
                         ></a>
                       </li>
                       <li className="instagram">
-                        <a href="https://www.instagram.com/jcinagpurfortune/" className="fab fa-instagram"></a>
+                        <a
+                          href="https://www.instagram.com/jcinagpurfortune/"
+                          className="fab fa-instagram"
+                        ></a>
                       </li>
                     </ul>
                   </div>
@@ -784,10 +992,19 @@ function Index() {
         {/* END sidebar widget item */}
 
         {/* xs modal */}
-        <div className="zoom-anim-dialog mfp-hide modal-searchPanel" id="modal-popup-2">
+        <div
+          className="zoom-anim-dialog mfp-hide modal-searchPanel"
+          id="modal-popup-2"
+        >
           <div className="xs-search-panel">
             <form action="#" method="POST" className="xs-search-group">
-              <input type="search" className="form-control" name="search" id="search" placeholder="Search" />
+              <input
+                type="search"
+                className="form-control"
+                name="search"
+                id="search"
+                placeholder="Search"
+              />
               <button type="submit" className="search-button">
                 <i className="icon icon-search"></i>
               </button>
@@ -796,8 +1013,7 @@ function Index() {
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default Index
-
+export default Index;

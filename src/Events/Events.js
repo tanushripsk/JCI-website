@@ -33,6 +33,16 @@ const ImageTabs = () => {
         alt: "Presidential Academy",
         text: "Presidential Academy",
       },
+      {
+        src: "images/zone-events/flag walkthone.webp",
+        alt: "Mission in Motion – Flag Walkathon",
+        text: "Mission in Motion – Flag Walkathon-2025",
+      },
+      {
+        src: "images/zone-events/national president visit.png",
+        alt: "National President Visit",
+        text: "National President Visit-2025",
+      },
     ],
     nationalevents: [
       {
@@ -46,6 +56,16 @@ const ImageTabs = () => {
         src: "images/eventimages/LOST.png",
         alt: "LOST",
         text: "LOTS-2025",
+      },
+      {
+        src: "images/zone-events/flag walkthone.webp",
+        alt: "Mission in Motion – Flag Walkathon",
+        text: "Mission in Motion – Flag Walkathon-2025",
+      },
+      {
+        src: "images/zone-events/national president visit.png",
+        alt: "National President Visit",
+        text: "National President Visit-2025",
       },
     ],
   };
